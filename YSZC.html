@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi-Functions Mosquito Repellent Lamp</title>
+    <style>
+        body {
+            font-family: 'Microsoft YaHei', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .logo-container {
+            width: 100px;
+            margin-right: 20px;
+        }
+        .logo-container img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+        .title-container {
+            flex: 1;
+            text-align: center;
+        }
+        .main-content {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            flex: 1;
+        }
+        h1 {
+            color: #2c3e50;
+            margin: 0;
+            padding: 0;
+        }
+        h2 {
+            color: #2980b9;
+            margin-top: 30px;
+            border-left: 4px solid #3498db;
+            padding-left: 10px;
+        }
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+        .container {
+            background-color: white;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+        }
+        .highlight {
+            background-color: #e8f4fc;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+        .footer {
+            margin-top: 40px;
+            padding: 20px;
+            text-align: center;
+            font-size: 0.9em;
+            color: #7f8c8d;
+            background-color: white;
+            box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
+        }
+        .language-selector {
+            display: none;
+        }
+        .language-btn {
+            display: none;
+        }
+        [data-lang] {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <!-- <div class="logo-container">
+            <img src="logo.gif" alt="Logo">
+        </div> -->
+        <div class="title-container">
+            <h1>Multi-Functions Mosquito Repellent Lamp</h1>
+        </div>
+    </div>
+    
+    <div class="main-content">
+        <div class="language-selector">
+            <button class="language-btn" onclick="setLanguage('zh')">中文</button>
+            <button class="language-btn" onclick="setLanguage('en')">English</button>
+        </div>
+        
+        <div class="container">
+            <h1>隐私政策 / Privacy Policy</h1>
+            <p>最后更新日期：2025年4月4日 / Last updated: April 4, 2025</p>
+            <p>欢迎使用多功能驱蚊灯应用。本隐私政策旨在向您说明我们如何收集、使用和保护您的个人信息。请您仔细阅读本隐私政策，以便了解我们的数据处理方式。 / Welcome to the Multi-Functions Mosquito Repellent Lamp application. This privacy policy aims to explain how we collect, use, and protect your personal information. Please read this privacy policy carefully to understand our data processing methods.</p>
+            <h2>1. 信息收集 / Information Collection</h2>
+            <p>我们的应用仅收集必要的信息，以提供和改进我们的服务。具体而言，我们可能收集以下信息： / Our application only collects necessary information to provide and improve our services. Specifically, we may collect the following information:</p>
+            <ul>
+                <li>设备信息：我们可能会收集您的设备型号、操作系统版本、设备标识符等基本设备信息，以优化应用性能。 / Device Information: We may collect basic device information such as your device model, operating system version, and device identifier to optimize application performance.</li>
+                <li>应用使用数据：我们可能会收集您如何使用我们的应用的数据，例如功能使用频率、应用崩溃报告等，以改进用户体验。 / Application Usage Data: We may collect data on how you use our application, such as feature usage frequency and application crash reports, to improve user experience.</li>
+            </ul>
+            <h2>2. 权限使用 / Permission Usage</h2>
+            <p>我们的应用需要以下权限才能正常运行： / Our application requires the following permissions to function properly:</p>
+            <ul>
+                <li>修改系统设置权限（WRITE_SETTINGS）：此权限用于调整屏幕亮度，这是驱蚊功能正常工作所需的。我们仅在应用运行时使用此权限，且仅用于调整屏幕亮度。 / Modify System Settings Permission (WRITE_SETTINGS): This permission is used to adjust screen brightness, which is necessary for the mosquito repellent function to work properly. We only use this permission while the application is running and only to adjust screen brightness.</li>
+                <li>保持屏幕常亮权限（WAKE_LOCK）：此权限用于防止设备在驱蚊模式下自动锁屏，确保驱蚊功能持续有效。 / Keep Screen On Permission (WAKE_LOCK): This permission is used to prevent the device from automatically locking the screen in mosquito repellent mode, ensuring the mosquito repellent function remains effective.</li>
+            </ul>
+            <h2>3. 信息使用 / Information Usage</h2>
+            <p>我们可能会使用收集的信息来提供、维护和改进我们的服务。我们不会将您的个人信息出售给第三方。 / We may use the collected information to provide, maintain, and improve our services. We will not sell your personal information to third parties.</p>
+            <h2>4. 信息共享 / Information Sharing</h2>
+            <ul>
+                <li><strong>服务提供商 / Service Providers</strong>：我们可能会与帮助我们提供服务的第三方服务提供商共享信息（例如崩溃分析服务），这些提供商有义务保护您的信息。 / We may share information with third-party service providers who help us provide services (such as crash analysis services), and these providers are obligated to protect your information.</li>
+                <li><strong>法律要求 / Legal Requirements</strong>：如果法律要求或为了保护我们的权利、财产或安全，我们可能会披露您的信息。 / If required by law or to protect our rights, property, or safety, we may disclose your information.</li>
+            </ul>
+            <h2>5. 数据安全 / Data Security</h2>
+            <p>我们采取合理的安全措施来保护您的个人信息不被未经授权的访问、使用或披露。然而，请注意，没有任何电子传输或存储方法是100%安全的。 / We take reasonable security measures to protect your personal information from unauthorized access, use, or disclosure. However, please note that no method of electronic transmission or storage is 100% secure.</p>
+            <h2>6. 儿童隐私 / Children's Privacy</h2>
+            <p>我们的服务不面向13岁以下的儿童。我们不会故意收集13岁以下儿童的个人信息。如果您是父母或监护人，并且您认为您的孩子向我们提供了个人信息，请联系我们，我们将采取措施删除这些信息。 / Our services are not directed to children under the age of 13. We do not knowingly collect personal information from children under 13. If you are a parent or guardian and believe your child has provided us with personal information, please contact us, and we will take steps to delete such information.</p>
+            <div class="footer">
+                <p style="font-size: 0.8em;">电子邮件：iocompile67692@gmail.com / Email: iocompile67692@gmail.com</p>
+                <p>© 2025 Yookoon Technology. 保留所有权利。 / © 2025 Yookoon Technology. All rights reserved.</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // 设置初始语言
+        document.addEventListener('DOMContentLoaded', function() {
+            const savedLang = localStorage.getItem('preferredLanguage') || detectLanguage();
+            setLanguage(savedLang);
+        });
+
+        function detectLanguage() {
+            const userLang = navigator.language || navigator.userLanguage;
+            return userLang.startsWith('zh') ? 'zh' : 'en';
+        }
+
+        function setLanguage(lang) {
+            const langElements = document.querySelectorAll('[data-lang]');
+            const buttons = document.querySelectorAll('.language-btn');
+            
+            langElements.forEach(el => {
+                el.style.display = el.dataset.lang === lang ? '' : 'none';
+            });
+            
+            buttons.forEach(btn => {
+                btn.classList.toggle('active', btn.textContent.toLowerCase().includes(lang));
+            });
+            
+            localStorage.setItem('preferredLanguage', lang);
+            document.documentElement.lang = lang;
+        }
+    </script>
+</body>
+</html>
